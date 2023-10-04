@@ -11,14 +11,15 @@
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
   # plain files is through 'home.file'.
   xdg.configFile = {
-   "kitty".source = ./kitty;
-   "starship.toml".source = ./starship.toml;
-   "ranger".source = ./ranger;
-   "i3".source = ./i3;
-   "nvim".source = ./nvim;
+   "kitty".source = ./config/kitty;
+   "starship.toml".source = ./config/starship.toml;
+   "ranger".source = ./config/ranger;
+   "i3".source = ./config/i3;
+   "nvim".source = ./config/nvim;
   };
   home.file = {
-    ".bashrc".source = ./.bashrc;
+    ".bashrc".source = ./home/.bashrc;
+    "wallpapers".source = ./home/wallpapers;
   };
 
   programs = {
