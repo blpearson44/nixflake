@@ -16,10 +16,11 @@
    "ranger".source = ./config/ranger;
    "i3".source = ./config/i3;
    "nvim".source = ./config/nvim;
+   "tmux".source = ./tmux/;
   };
   home.file = {
     ".bashrc".source = ./home/.bashrc;
-    # "wallpapers".source = ./home/wallpapers;
+    "wallpapers".source = ./home/wallpapers;
   };
 
   programs = {
