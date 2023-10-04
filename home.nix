@@ -19,7 +19,7 @@
   };
   home.file = {
     ".bashrc".source = ./home/.bashrc;
-    "wallpapers".source = ./home/wallpapers;
+    # "wallpapers".source = ./home/wallpapers;
   };
 
   programs = {
@@ -27,6 +27,7 @@
       enable = true;
       userName = "Ben Pearson";
       userEmail = "blpearson44@icloud.com";
+      lfs.enable = true;
     };
 
   };
