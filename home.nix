@@ -16,7 +16,7 @@
    "ranger".source = ./config/ranger;
    "i3".source = ./config/i3;
    "nvim".source = ./config/nvim;
-   "tmux".source = ./tmux/;
+   "tmux".source = ./tmux;
   };
   home.file = {
     ".bashrc".source = ./home/.bashrc;
