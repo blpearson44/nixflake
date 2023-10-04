@@ -1,0 +1,181 @@
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.020  000.020: --- NVIM STARTING ---
+000.576  000.556: event init
+000.706  000.130: early init
+000.771  000.065: locale set
+000.813  000.042: init first window
+001.069  000.256: inits 1
+001.095  000.026: window checked
+001.106  000.011: parsing arguments
+001.590  000.065  000.065: require('vim.shared')
+001.719  000.048  000.048: require('vim._meta')
+001.730  000.127  000.079: require('vim._editor')
+001.739  000.241  000.049: require('vim._init_packages')
+001.748  000.401: init lua interpreter
+001.846  000.098: expanding arguments
+001.893  000.047: inits 2
+002.544  000.652: init highlight
+002.555  000.010: waiting for UI
+003.608  001.053: done waiting for UI
+003.630  000.022: clear screen
+003.939  000.309: init default mappings & autocommands
+004.040  000.101: --cmd commands
+004.913  000.057  000.057: sourcing /nix/store/1b4pbg130cdq5pjyi7vxqqrf7nqh63a5-neovim-unwrapped-0.9.2/share/nvim/runtime/ftplugin.vim
+004.996  000.038  000.038: sourcing /nix/store/1b4pbg130cdq5pjyi7vxqqrf7nqh63a5-neovim-unwrapped-0.9.2/share/nvim/runtime/indent.vim
+006.367  001.216  001.216: sourcing /home/ben/.local/share/nvim/site/autoload/plug.vim
+008.915  000.040  000.040: sourcing /home/ben/.vim/plugged/vim-toml/ftdetect/toml.vim
+009.005  000.025  000.025: sourcing /home/ben/.vim/plugged/vim-markdown/ftdetect/markdown.vim
+009.271  000.606  000.541: sourcing /nix/store/1b4pbg130cdq5pjyi7vxqqrf7nqh63a5-neovim-unwrapped-0.9.2/share/nvim/runtime/filetype.lua
+009.392  000.022  000.022: sourcing /nix/store/1b4pbg130cdq5pjyi7vxqqrf7nqh63a5-neovim-unwrapped-0.9.2/share/nvim/runtime/ftplugin.vim
+009.493  000.020  000.020: sourcing /nix/store/1b4pbg130cdq5pjyi7vxqqrf7nqh63a5-neovim-unwrapped-0.9.2/share/nvim/runtime/indent.vim
+009.723  000.074  000.074: sourcing /nix/store/1b4pbg130cdq5pjyi7vxqqrf7nqh63a5-neovim-unwrapped-0.9.2/share/nvim/runtime/syntax/synload.vim
+009.795  000.238  000.164: sourcing /nix/store/1b4pbg130cdq5pjyi7vxqqrf7nqh63a5-neovim-unwrapped-0.9.2/share/nvim/runtime/syntax/syntax.vim
+010.267  000.112  000.112: sourcing /home/ben/.vim/plugged/vim/autoload/dracula.vim
+011.979  002.116  002.004: sourcing /home/ben/.vim/plugged/vim/colors/dracula.vim
+012.135  007.026  002.808: sourcing /home/ben/.config/nvim/init.vim
+012.150  000.989: sourcing vimrc file(s)
+012.797  000.116  000.116: sourcing /home/ben/.vim/plugged/nerdtree/autoload/nerdtree.vim
+013.286  000.311  000.311: sourcing /home/ben/.vim/plugged/nerdtree/lib/nerdtree/path.vim
+013.410  000.075  000.075: sourcing /home/ben/.vim/plugged/nerdtree/lib/nerdtree/menu_controller.vim
+013.552  000.051  000.051: sourcing /home/ben/.vim/plugged/nerdtree/lib/nerdtree/menu_item.vim
+013.661  000.061  000.061: sourcing /home/ben/.vim/plugged/nerdtree/lib/nerdtree/key_map.vim
+013.838  000.131  000.131: sourcing /home/ben/.vim/plugged/nerdtree/lib/nerdtree/bookmark.vim
+013.997  000.111  000.111: sourcing /home/ben/.vim/plugged/nerdtree/lib/nerdtree/tree_file_node.vim
+014.361  000.315  000.315: sourcing /home/ben/.vim/plugged/nerdtree/lib/nerdtree/tree_dir_node.vim
+014.511  000.101  000.101: sourcing /home/ben/.vim/plugged/nerdtree/lib/nerdtree/opener.vim
+014.691  000.133  000.133: sourcing /home/ben/.vim/plugged/nerdtree/lib/nerdtree/creator.vim
+014.776  000.038  000.038: sourcing /home/ben/.vim/plugged/nerdtree/lib/nerdtree/flag_set.vim
+014.903  000.081  000.081: sourcing /home/ben/.vim/plugged/nerdtree/lib/nerdtree/nerdtree.vim
+015.108  000.156  000.156: sourcing /home/ben/.vim/plugged/nerdtree/lib/nerdtree/ui.vim
+015.182  000.030  000.030: sourcing /home/ben/.vim/plugged/nerdtree/lib/nerdtree/event.vim
+015.298  000.036  000.036: sourcing /home/ben/.vim/plugged/nerdtree/lib/nerdtree/notifier.vim
+015.589  000.243  000.243: sourcing /home/ben/.vim/plugged/nerdtree/autoload/nerdtree/ui_glue.vim
+017.422  000.083  000.083: sourcing /home/ben/.vim/plugged/nerdtree/nerdtree_plugin/exec_menuitem.vim
+018.125  000.331  000.331: sourcing /nix/store/1b4pbg130cdq5pjyi7vxqqrf7nqh63a5-neovim-unwrapped-0.9.2/share/nvim/runtime/autoload/provider/clipboard.vim
+018.428  000.973  000.642: sourcing /home/ben/.vim/plugged/nerdtree/nerdtree_plugin/fs_menu.vim
+018.506  000.039  000.039: sourcing /home/ben/.vim/plugged/nerdtree/nerdtree_plugin/vcs.vim
+018.711  000.057  000.057: sourcing /home/ben/.vim/plugged/nerdtree-git-plugin/autoload/gitstatus.vim
+018.995  000.047  000.047: sourcing /home/ben/.vim/plugged/nerdtree-git-plugin/autoload/gitstatus/log.vim
+019.553  000.060  000.060: sourcing /home/ben/.vim/plugged/nerdtree-git-plugin/autoload/gitstatus/listener.vim
+019.644  001.043  000.879: sourcing /home/ben/.vim/plugged/nerdtree-git-plugin/nerdtree_plugin/git_status.vim
+019.947  000.199  000.199: sourcing /home/ben/.vim/plugged/vim-devicons/nerdtree_plugin/webdevicons.vim
+020.111  007.535  003.209: sourcing /home/ben/.vim/plugged/nerdtree/plugin/NERD_tree.vim
+021.444  001.154  001.154: sourcing /home/ben/.vim/plugged/vim-devicons/plugin/webdevicons.vim
+021.766  000.115  000.115: sourcing /home/ben/.vim/plugged/vim-gitgutter/autoload/gitgutter/utility.vim
+022.071  000.097  000.097: sourcing /home/ben/.vim/plugged/vim-gitgutter/autoload/gitgutter/highlight.vim
+022.732  001.201  000.989: sourcing /home/ben/.vim/plugged/vim-gitgutter/plugin/gitgutter.vim
+022.909  000.080  000.080: sourcing /home/ben/.vim/plugged/vim-startify/plugin/startify.vim
+023.092  000.091  000.091: sourcing /home/ben/.vim/plugged/vim-commentary/plugin/commentary.vim
+023.575  000.098  000.098: sourcing /home/ben/.vim/plugged/vim-airline/autoload/airline/init.vim
+024.185  000.341  000.341: sourcing /home/ben/.vim/plugged/vim-airline/autoload/airline/parts.vim
+024.414  000.023  000.023: sourcing /home/ben/.vim/plugged/vim-airline/autoload/airline/formatter/short_path.vim
+025.124  000.112  000.112: sourcing /home/ben/.vim/plugged/vim-airline/autoload/airline/util.vim
+025.264  001.964  001.391: sourcing /home/ben/.vim/plugged/vim-airline/plugin/airline.vim
+025.400  000.041  000.041: sourcing /home/ben/.vim/plugged/vim-airline-themes/plugin/airline-themes.vim
+025.542  000.037  000.037: sourcing /home/ben/.vim/plugged/rainbow/plugin/rainbow_main.vim
+026.091  000.126  000.126: sourcing /nix/store/1b4pbg130cdq5pjyi7vxqqrf7nqh63a5-neovim-unwrapped-0.9.2/share/nvim/runtime/plugin/gzip.vim
+026.156  000.021  000.021: sourcing /nix/store/1b4pbg130cdq5pjyi7vxqqrf7nqh63a5-neovim-unwrapped-0.9.2/share/nvim/runtime/plugin/health.vim
+026.895  000.124  000.124: sourcing /nix/store/1b4pbg130cdq5pjyi7vxqqrf7nqh63a5-neovim-unwrapped-0.9.2/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+027.047  000.803  000.679: sourcing /nix/store/1b4pbg130cdq5pjyi7vxqqrf7nqh63a5-neovim-unwrapped-0.9.2/share/nvim/runtime/plugin/matchit.vim
+027.272  000.184  000.184: sourcing /nix/store/1b4pbg130cdq5pjyi7vxqqrf7nqh63a5-neovim-unwrapped-0.9.2/share/nvim/runtime/plugin/matchparen.vim
+027.565  000.254  000.254: sourcing /nix/store/1b4pbg130cdq5pjyi7vxqqrf7nqh63a5-neovim-unwrapped-0.9.2/share/nvim/runtime/plugin/netrwPlugin.vim
+027.748  000.018  000.018: sourcing /nix/store/6j331vvkdynvslyfdv66pyirrcvhm8yg-neovim-0.9.2/rplugin.vim
+027.836  000.197  000.178: sourcing /nix/store/1b4pbg130cdq5pjyi7vxqqrf7nqh63a5-neovim-unwrapped-0.9.2/share/nvim/runtime/plugin/rplugin.vim
+027.932  000.054  000.054: sourcing /nix/store/1b4pbg130cdq5pjyi7vxqqrf7nqh63a5-neovim-unwrapped-0.9.2/share/nvim/runtime/plugin/shada.vim
+028.009  000.031  000.031: sourcing /nix/store/1b4pbg130cdq5pjyi7vxqqrf7nqh63a5-neovim-unwrapped-0.9.2/share/nvim/runtime/plugin/spellfile.vim
+028.136  000.083  000.083: sourcing /nix/store/1b4pbg130cdq5pjyi7vxqqrf7nqh63a5-neovim-unwrapped-0.9.2/share/nvim/runtime/plugin/tarPlugin.vim
+028.341  000.070  000.070: sourcing /nix/store/1b4pbg130cdq5pjyi7vxqqrf7nqh63a5-neovim-unwrapped-0.9.2/share/nvim/runtime/plugin/tohtml.vim
+028.411  000.027  000.027: sourcing /nix/store/1b4pbg130cdq5pjyi7vxqqrf7nqh63a5-neovim-unwrapped-0.9.2/share/nvim/runtime/plugin/tutor.vim
+028.577  000.110  000.110: sourcing /nix/store/1b4pbg130cdq5pjyi7vxqqrf7nqh63a5-neovim-unwrapped-0.9.2/share/nvim/runtime/plugin/zipPlugin.vim
+029.429  000.075  000.075: sourcing /nix/store/1b4pbg130cdq5pjyi7vxqqrf7nqh63a5-neovim-unwrapped-0.9.2/share/nvim/runtime/plugin/editorconfig.lua
+029.543  000.070  000.070: sourcing /nix/store/1b4pbg130cdq5pjyi7vxqqrf7nqh63a5-neovim-unwrapped-0.9.2/share/nvim/runtime/plugin/man.lua
+029.635  000.050  000.050: sourcing /nix/store/1b4pbg130cdq5pjyi7vxqqrf7nqh63a5-neovim-unwrapped-0.9.2/share/nvim/runtime/plugin/nvim.lua
+029.665  003.257: loading rtp plugins
+029.934  000.269: loading packages
+030.993  000.231  000.231: sourcing /home/ben/.vim/plugged/vim/after/plugin/dracula.vim
+031.071  000.906: loading after plugins
+031.090  000.019: inits 3
+032.883  001.793: reading ShaDa
+034.399  000.315  000.315: sourcing /home/ben/.vim/plugged/vim-airline/autoload/airline/extensions.vim
+034.676  000.044  000.044: sourcing /home/ben/.vim/plugged/vim-airline/autoload/airline/extensions/quickfix.vim
+034.919  000.109  000.109: sourcing /home/ben/.vim/plugged/vim-airline/autoload/airline.vim
+035.118  000.034  000.034: sourcing /home/ben/.vim/plugged/vim-airline/autoload/airline/extensions/netrw.vim
+035.355  000.077  000.077: sourcing /home/ben/.vim/plugged/vim-airline/autoload/airline/extensions/term.vim
+035.562  000.071  000.071: sourcing /home/ben/.vim/plugged/vim-airline/autoload/airline/extensions/hunks.vim
+037.357  000.194  000.194: require('vim.lsp.log')
+037.898  000.529  000.529: require('vim.lsp.protocol')
+039.281  000.355  000.355: require('vim.lsp._snippet')
+039.399  000.106  000.106: require('vim.highlight')
+039.422  000.012  000.012: require('vim.F')
+039.452  001.543  001.070: require('vim.lsp.util')
+039.478  002.625  000.359: require('vim.lsp.handlers')
+039.893  000.405  000.405: require('vim.lsp.rpc')
+040.136  000.231  000.231: require('vim.lsp.sync')
+040.513  000.366  000.366: require('vim.lsp.semantic_tokens')
+040.851  000.326  000.326: require('vim.lsp.buf')
+041.003  000.140  000.140: require('vim.lsp.diagnostic')
+041.185  000.171  000.171: require('vim.lsp.codelens')
+041.254  005.550  001.285: require('vim.lsp')
+041.391  000.056  000.056: sourcing /home/ben/.vim/plugged/vim-airline/autoload/airline/extensions/nvimlsp.vim
+041.596  000.084  000.084: sourcing /home/ben/.vim/plugged/vim-airline/autoload/airline/extensions/whitespace.vim
+041.840  000.068  000.068: sourcing /home/ben/.vim/plugged/vim-airline/autoload/airline/extensions/wordcount.vim
+042.044  000.105  000.105: sourcing /home/ben/.vim/plugged/vim-airline/autoload/airline/extensions/tabline.vim
+042.287  000.135  000.135: sourcing /home/ben/.vim/plugged/vim-airline/autoload/airline/extensions/tabline/autoshow.vim
+042.495  000.062  000.062: sourcing /home/ben/.vim/plugged/vim-airline/autoload/airline/extensions/tabline/tabs.vim
+042.698  000.106  000.106: sourcing /home/ben/.vim/plugged/vim-airline/autoload/airline/extensions/tabline/buffers.vim
+042.888  000.032  000.032: sourcing /home/ben/.vim/plugged/vim-airline/autoload/airline/extensions/keymap.vim
+043.107  000.041  000.041: sourcing /home/ben/.vim/plugged/vim-airline/autoload/airline/extensions/searchcount.vim
+045.634  000.052  000.052: sourcing /home/ben/.vim/plugged/vim-airline/autoload/airline/section.vim
+045.888  000.127  000.127: sourcing /home/ben/.vim/plugged/vim-airline/autoload/airline/highlighter.vim
+050.524  000.050  000.050: sourcing /home/ben/.vim/plugged/vim-airline/autoload/airline/themes.vim
+051.277  000.954  000.905: sourcing /home/ben/.vim/plugged/vim/autoload/airline/themes/dracula.vim
+065.642  000.096  000.096: sourcing /home/ben/.vim/plugged/vim-airline/autoload/airline/builder.vim
+065.955  000.063  000.063: sourcing /home/ben/.vim/plugged/vim-airline/autoload/airline/extensions/default.vim
+101.436  060.372: opening buffers
+101.642  000.095  000.095: sourcing /home/ben/.vim/plugged/vim-gitgutter/autoload/gitgutter.vim
+101.851  000.321: BufEnter autocommands
+101.864  000.012: editing files in windows
+102.657  000.569  000.569: sourcing /home/ben/.vim/plugged/vim-startify/autoload/startify.vim
+102.858  000.050  000.050: sourcing /home/ben/.vim/plugged/vim-airline/autoload/airline/extensions/tabline/buflist.vim
+103.483  000.430  000.430: sourcing /home/ben/.vim/plugged/vim-startify/autoload/startify/fortune.vim
+109.440  000.126  000.126: sourcing /home/ben/.vim/plugged/vim-startify/syntax/startify.vim
+110.143  000.097  000.097: sourcing /home/ben/.vim/plugged/rainbow/autoload/rainbow_main.vim
+110.439  000.064  000.064: sourcing /home/ben/.vim/plugged/rainbow/autoload/rainbow.vim
+113.858  010.659: VimEnter autocommands
+113.871  000.013: UIEnter autocommands
+113.888  000.017: before starting main loop
+114.281  000.133  000.133: sourcing /home/ben/.vim/plugged/vim-airline/autoload/airline/extensions/tabline/ctrlspace.vim
+114.430  000.067  000.067: sourcing /home/ben/.vim/plugged/vim-airline/autoload/airline/extensions/tabline/tabws.vim
+114.750  000.084  000.084: sourcing /home/ben/.vim/plugged/vim-airline/autoload/airline/extensions/tabline/builder.vim
+117.156  000.027  000.027: sourcing /home/ben/.vim/plugged/vim-airline/autoload/airline/extensions/tabline/formatters/tabnr.vim
+117.383  000.025  000.025: sourcing /home/ben/.vim/plugged/vim-devicons/autoload/airline/extensions/tabline/formatters/webdevicons.vim
+117.508  000.041  000.041: sourcing /home/ben/.vim/plugged/vim-airline/autoload/airline/extensions/tabline/formatters/default.vim
+134.527  020.262: first screen update
+134.540  000.013: --- NVIM STARTED ---
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.019  000.019: --- NVIM STARTING ---
+000.378  000.359: event init
+000.508  000.130: early init
+000.566  000.057: locale set
+000.616  000.050: init first window
+001.069  000.454: inits 1
+001.087  000.018: window checked
+001.098  000.010: parsing arguments
+001.546  000.050  000.050: require('vim.shared')
+001.670  000.050  000.050: require('vim._meta')
+001.681  000.123  000.073: require('vim._editor')
+001.740  000.285  000.112: require('vim._init_packages')
+001.750  000.367: init lua interpreter
+003.538  001.788: expanding arguments
+003.605  000.067: inits 2
+003.890  000.285: init highlight

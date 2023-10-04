@@ -17,6 +17,7 @@
   time.timeZone = "US/Pacific";
 
   services = {
+    picom.enable = true;
     xserver = {
       enable = true;
       resolutions = [
