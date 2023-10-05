@@ -32,7 +32,7 @@
     };
     starship =
       let
-        flavour = ""; # One of `latte`, `frappe`, `macchiato`, or `mocha`
+        flavour = "mocha"; # One of `latte`, `frappe`, `macchiato`, or `mocha`
       in
       {
         enable = true;
