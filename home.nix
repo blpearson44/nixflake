@@ -12,11 +12,10 @@
   # plain files is through 'home.file'.
   xdg.configFile = {
    "kitty/kitty.conf".source = ./config/kitty/kitty.conf;
-   "starship.toml".source = ./config/starship.toml;
+   # "starship.toml".source = ./config/starship.toml;
    "ranger/rifle.conf".source = ./config/ranger/rifle.conf;
    "ranger/rc.conf".source = ./config/ranger/rc.conf;
    "i3".source = ./config/i3/config;
-   "nvim".source = ./config/nvim;
    "tmux".source = ./config/tmux;
   };
   home.file = {
@@ -31,7 +30,24 @@
       userEmail = "blpearson44@icloud.com";
       lfs.enable = true;
     };
-
+    starship = 
+      let 
+        flavour = "mocha";
+      in
+      {
+        enable = true;
+        settings = {
+          format = "$all";
+          pallette = "catppuccin_${flavour}";
+        } // builtins.fromTOML (builtins.readFile
+          (pkgs.fetchFromGitHub
+            {
+              owner = "catppuccin";
+              repo = "starship";
+              rev = "5629d23";
+              sha256 = "sha256-nsRuxQFKbQkyEI4TXgvAjcroVdG+heKX5Pauq/4Ota0=";
+            } + /pallettes/${flavour}.toml));
+      };
   };
 
   home.sessionVariables = {
