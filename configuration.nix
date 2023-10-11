@@ -89,6 +89,7 @@
     nerdfonts
     fira-code
     meslo-lgs-nf
+    jetbrains-mono
 
   ];
 
